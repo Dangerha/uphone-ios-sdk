@@ -33,8 +33,8 @@
 		CE60570A27880E2E00D557DE /* UPhoneSettingFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE60570227880E2E00D557DE /* UPhoneSettingFooterView.m */; };
 		CE60570D2788167200D557DE /* UPhonePacketLostView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE60570C2788167200D557DE /* UPhonePacketLostView.m */; };
 		CEBDA7AB27586AE800AA620E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBDA7AA27586AE800AA620E /* SceneDelegate.m */; };
-		CEC3045B285323B70041AC2D /* UPhoneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC30459285323A40041AC2D /* UPhoneSDK.framework */; platformFilter = ios; };
-		CEC3045C285323B70041AC2D /* UPhoneSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEC30459285323A40041AC2D /* UPhoneSDK.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEECF5782859B64E00A9384F /* UPhoneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEECF5762859B64B00A9384F /* UPhoneSDK.framework */; platformFilter = ios; };
+		CEECF5792859B64E00A9384F /* UPhoneSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEECF5762859B64B00A9384F /* UPhoneSDK.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +61,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CEC3045C285323B70041AC2D /* UPhoneSDK.framework in Embed Frameworks */,
+				CEECF5792859B64E00A9384F /* UPhoneSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,8 +120,8 @@
 		CE60570C2788167200D557DE /* UPhonePacketLostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPhonePacketLostView.m; sourceTree = "<group>"; };
 		CEBDA7A927586AE800AA620E /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		CEBDA7AA27586AE800AA620E /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		CEC30459285323A40041AC2D /* UPhoneSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UPhoneSDK.framework; sourceTree = "<group>"; };
 		CEC746F62799048D00D741B8 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEECF5762859B64B00A9384F /* UPhoneSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UPhoneSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC3045B285323B70041AC2D /* UPhoneSDK.framework in Frameworks */,
+				CEECF5782859B64E00A9384F /* UPhoneSDK.framework in Frameworks */,
 				9C0DA7CBE2DA4A188AA9D209 /* Pods_UPhoneDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,7 +194,7 @@
 		CE0C716E274229B5003B1EA8 /* UPhoneDemo */ = {
 			isa = PBXGroup;
 			children = (
-				CEC30459285323A40041AC2D /* UPhoneSDK.framework */,
+				CEECF5762859B64B00A9384F /* UPhoneSDK.framework */,
 				CE0C71BB27422A12003B1EA8 /* Controller */,
 				CE0C71BA27422A12003B1EA8 /* UCCommon.h */,
 				CE0C71A927422A12003B1EA8 /* View */,
